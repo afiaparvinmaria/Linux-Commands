@@ -1,0 +1,51 @@
+who
+whoami
+date
+hostname
+echo -e "string\nstring\nstring" filename
+head filename for first 10 lines
+head n 5 file1.txt
+tail n 5 file1.txt for 11-15 lines
+wc file1.txt - counts lines, words, character number
+
+
+Is -1 shows which files have permissions (detailed files)
+chmod u-w file1.txt - to lock the file for edit or write/ only read
+chmod u-r file1.txt - to lock the readmode and u= users
+chmod u+r file1.txt - to unlock
+chmod u+w file1.txt - to unlock
+chmod 7 file1.txt- to unlock all together
+
+chmod 777 file.txt for giving all persmissions to everyone (user, group, others) 7 = 111 = rwx
+chmod 651 file.txt
+
+
+truncate -s filename = delete all contents of a file
+
+\n\n6\n7\n8\n\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20
+
+
+
+for shel script file:
+#!/bin/sh
+echo 'Hello world'
+pwd
+1s
+
+
+#!/bin/sh
+echo "what is your ID"
+read ID
+echo "my id is $ID"
+
+
+#!/bin/sh
+echo "what is your ID"
+ID="509"
+echo "Id: $ID"
+
+
+
+
+
+
